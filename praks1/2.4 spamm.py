@@ -1,4 +1,4 @@
-suurus = input("Sisestage kirja suurus: ")
+suurus = float(input("Sisestage kirja suurus: "))
 teema = input("Sisestage kirja teema pealkiri: ")
 fail = input("Kas kirjaga on kaasas fail? ").lower
 if teema == "" or fail == "jah" and suurus > 1:
