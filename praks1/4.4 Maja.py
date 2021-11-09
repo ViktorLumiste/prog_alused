@@ -1,7 +1,7 @@
 from tkinter import *
 
 raam = Tk()
-raam.title("Aseri valla lipp")
+raam.title("Maja")
 tahvel = Canvas(raam, width=600, height = 400, background="light blue")
 tahvel.create_rectangle( 0, 300, 600, 400, fill="green" )
 tahvel.create_rectangle( 80, 180, 520, 360, fill="orange")
