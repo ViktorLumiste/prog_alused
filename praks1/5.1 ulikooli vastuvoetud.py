@@ -5,7 +5,6 @@ aasta = 2011
 for rida in fail:
     if soov == aasta:
         break
-    else:
-        aasta += 1
+    aasta += 1
 print(aasta, " aastal oli vastuvõetuid ", rida)
 fail.close()
