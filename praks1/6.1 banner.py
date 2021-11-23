@@ -2,9 +2,10 @@ def banner(lause):
     reklaam = lause.upper()
     return(reklaam)
 
-def reklaaam():
-    kord = int(input("Mitu korda soovite reklaamlauset kuvada? "))
+def reklaaam(korda):
     asd = banner(input("Sisestage reklaamilause: "))
-    for i in range(1,kord + 1):
+    for i in range(1,korda + 1):
         print(asd)
-reklaaam()
+        
+kord = int(input("Mitu korda soovite reklaamlauset kuvada? "))
+print(reklaaam(kord))
