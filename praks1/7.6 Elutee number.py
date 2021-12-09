@@ -15,9 +15,11 @@ while a <= 9:
 fail = open("sunnikuupaevad.txt")
 o = 1
 for rida in fail:
-    while elutee(rida[:-1]) != o:
+    eluteenumber = elutee(rida[:-1])
+    while eluteenumber != o:
         o += 1
     failinimi = "eluteenumber" + str(o)
     fail2 = open(failinimi + ".txt", "a", encoding = "UTF-8" )
     fail2.write(rida + "\n")
     fail2.close()
+    o = 1
